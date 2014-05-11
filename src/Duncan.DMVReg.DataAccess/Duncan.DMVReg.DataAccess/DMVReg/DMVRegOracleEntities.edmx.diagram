@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a083d2ef06d549daa1b1cce92f4bd1c1" Name="关系图1" ZoomLevel="21" >
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ActionParam" Width="1.5" PointX="3.25" PointY="1.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ActionType" Width="1.5" PointX="1.375" PointY="3.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Address" Width="1.5" PointX="10.25" PointY="65.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.AddressType" Width="1.5" PointX="10.25" PointY="48" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Audit" Width="1.5" PointX="0.75" PointY="9.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchResponseFormatType" Width="1.5" PointX="2.75" PointY="9.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchRuleType" Width="1.5" PointX="19.75" PointY="12.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchStatusClientRqst" Width="1.5" PointX="25.25" PointY="75.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchStatusClientRsp" Width="1.5" PointX="28.25" PointY="47.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchStatusDataSrcRqst" Width="1.5" PointX="25.25" PointY="52.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchStatusDataSrcRsp" Width="1.5" PointX="25.25" PointY="29.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.BatchType" Width="1.5" PointX="8.75" PointY="2.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ChargeType" Width="1.5" PointX="8.75" PointY="34.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Client" Width="1.5" PointX="11" PointY="34.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientContact" Width="1.5" PointX="10.25" PointY="60.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientContract" Width="1.5" PointX="13.25" PointY="37" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientDataSrcOrder" Width="1.5" PointX="22.25" PointY="46" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientDataSrcStatu" Width="1.5" PointX="5.75" PointY="72.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientDateTimeFormat" Width="1.5" PointX="10.25" PointY="69.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientDocument" Width="1.5" PointX="22" PointY="23.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientExtractSet" Width="1.5" PointX="15.25" PointY="65.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientInvoice" Width="1.5" PointX="22" PointY="27.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientMakeFamily" Width="1.5" PointX="15.25" PointY="61.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientMakeFamilyMake" Width="1.5" PointX="24.5" PointY="59.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientMakeFamilyMember" Width="1.5" PointX="17.5" PointY="79.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientNote" Width="1.5" PointX="16.25" PointY="37.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientParseSet" Width="1.5" PointX="15.25" PointY="70.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientRequestBatch" Width="1.5" PointX="27.5" PointY="75.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientRequestBatchRecord" Width="1.5" PointX="29.75" PointY="63.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientRequestBatchState" Width="1.5" PointX="25.25" PointY="78.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientRequestBatchStatu" Width="1.5" PointX="27.5" PointY="84.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientRequestStatu" Width="1.5" PointX="10.75" PointY="2.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientResponseBatch" Width="1.5" PointX="30.5" PointY="47.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientResponseBatchRecord" Width="1.5" PointX="32.75" PointY="63.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientResponseBatchStatu" Width="1.5" PointX="30.5" PointY="51.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientResponseControl" Width="1.5" PointX="13.25" PointY="29.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientResponseFormatSet" Width="1.5" PointX="13.25" PointY="57.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientResponseReport" Width="1.5" PointX="13.25" PointY="26.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientState" Width="1.5" PointX="18.25" PointY="64.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientStatisticsDefault" Width="1.5" PointX="13.25" PointY="88.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientStatu" Width="1.5" PointX="17.25" PointY="42.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientType" Width="1.5" PointX="8.75" PointY="37.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ClientValidationSet" Width="1.5" PointX="18.25" PointY="60.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Contact" Width="1.5" PointX="8" PointY="59.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ContactAddress" Width="1.5" PointX="12.5" PointY="63.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ContactEMail" Width="1.5" PointX="25.25" PointY="48.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ContactPhoneNumber" Width="1.5" PointX="25.25" PointY="44.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ContactType" Width="1.5" PointX="8" PointY="81.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.CostingUnit" Width="1.5" PointX="23.75" PointY="16.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Country" Width="1.5" PointX="6.5" PointY="42.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcBatchCost" Width="1.5" PointX="26" PointY="16.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcBatchRule" Width="1.5" PointX="22" PointY="11.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcContact" Width="1.5" PointX="18.25" PointY="70.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcDateTimeFormat" Width="1.5" PointX="10.25" PointY="54.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcDocument" Width="1.5" PointX="20" PointY="41.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcExtractSet" Width="1.5" PointX="10.25" PointY="75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcIdentificationSet" Width="1.5" PointX="13.25" PointY="75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcMakeFamily" Width="1.5" PointX="16.25" PointY="56.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcMakeFamilyMake" Width="1.5" PointX="24.5" PointY="56.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcMakeFamilyMember" Width="1.5" PointX="18.5" PointY="50.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcNote" Width="1.5" PointX="15.25" PointY="79.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcParseSet" Width="1.5" PointX="16.25" PointY="75.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcRequestBatch" Width="1.5" PointX="27.5" PointY="51.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcRequestBatchRecord" Width="1.5" PointX="29.75" PointY="59.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcRequestBatchStatu" Width="1.5" PointX="27.5" PointY="44.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcRequestControl" Width="1.5" PointX="10.25" PointY="80" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcRequestFormatSet" Width="1.5" PointX="19.25" PointY="55.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcRequestRuleSet" Width="1.5" PointX="15" PointY="42" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcResponseBatch" Width="1.5" PointX="27.5" PointY="29.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcResponseBatchRecord" Width="1.5" PointX="29.75" PointY="30.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcResponseBatchState" Width="1.5" PointX="25.25" PointY="32.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcResponseBatchStatu" Width="1.5" PointX="27.5" PointY="26.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcState" Width="1.5" PointX="19.25" PointY="75.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcStateNLET" Width="1.5" PointX="21.25" PointY="65.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcStatisticsDefault" Width="1.5" PointX="10.25" PointY="82.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcStatu" Width="1.5" PointX="8" PointY="84.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcType" Width="1.5" PointX="5.75" PointY="75.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrcValidationSet" Width="1.5" PointX="21.25" PointY="61.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DateTimeFormatType" Width="1.5" PointX="8" PointY="47.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Direction" Width="1.5" PointX="8" PointY="50.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Document" Width="1.5" PointX="17.75" PointY="6.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DocumentType" Width="1.5" PointX="19.75" PointY="15.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.EMail" Width="1.5" PointX="23" PointY="37.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.EMailType" Width="1.5" PointX="23" PointY="33.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ExtractSet" Width="1.5" PointX="13" PointY="80.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ExtractSetField" Width="1.5" PointX="19.25" PointY="19.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ExtractStep" Width="1.5" PointX="21.5" PointY="19.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.IdentificationSet" Width="1.5" PointX="11" PointY="88.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.IdentificationStep" Width="1.5" PointX="20" PointY="45.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.LoadRejectCount" Width="1.5" PointX="29.75" PointY="77.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.LoadRejectType" Width="1.5" PointX="27.5" PointY="88.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.LoadRuleSet" Width="1.5" PointX="13.25" PointY="91.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.LoadRuleStep" Width="1.5" PointX="15.5" PointY="91.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NLETSType" Width="1.5" PointX="8.75" PointY="39.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NoHitReason" Width="1.5" PointX="5.75" PointY="10.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NormalizedCategory" Width="1.5" PointX="10.5" PointY="17.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NormalizedObject" Width="1.5" PointX="10.5" PointY="20.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NormalizedObjectDef" Width="1.5" PointX="12.75" PointY="18" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Note" Width="1.5" PointX="14" PointY="6.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NotesType" Width="1.5" PointX="14" PointY="3.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NotSelectReason" Width="1.5" PointX="5.75" PointY="23.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.OwnershipEntity" Width="1.5" PointX="12.5" PointY="67.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ParamType" Width="1.5" PointX="1.375" PointY="6" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ParseSet" Width="1.5" PointX="13" PointY="84.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ParseStep" Width="1.5" PointX="21.25" PointY="50.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PhoneNumber" Width="1.5" PointX="23" PointY="43.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PhoneNumberType" Width="1.5" PointX="23" PointY="39.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateReplaceSet" Width="1.5" PointX="0.75" PointY="25.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateReplaceStep" Width="1.5" PointX="3" PointY="24.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateType" Width="1.5" PointX="21.25" PointY="69.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateTypeClientXlat" Width="1.5" PointX="23.5" PointY="70" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateTypeDataSrcXlat" Width="1.5" PointX="26.5" PointY="70.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateValidationSet" Width="1.5" PointX="19.75" PointY="4" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.PlateValidationStep" Width="1.5" PointX="22" PointY="3.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RawRecord" Width="1.5" PointX="27.5" PointY="57.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ReplacePatternType" Width="1.5" PointX="0.75" PointY="22.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestBatchType" Width="1.5" PointX="25.25" PointY="80.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestFormatSet" Width="1.5" PointX="17" PointY="46.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestFormatStep" Width="1.5" PointX="19.25" PointY="30.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestRecord" Width="1.5" PointX="27.5" PointY="60.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestResponse" Width="1.5" PointX="8" PointY="23.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestRuleSet" Width="1.5" PointX="12.75" PointY="10.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestRuleStep" Width="1.5" PointX="15" PointY="13.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestStatu" Width="1.5" PointX="25.25" PointY="64" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseBatchType" Width="1.5" PointX="2.75" PointY="12.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseFormatSet" Width="1.5" PointX="11" PointY="51.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseFormatStep" Width="1.5" PointX="15" PointY="32.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseRecord" Width="1.5" PointX="8" PointY="4.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseRecordDataStatu" Width="1.5" PointX="5.75" PointY="12.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseRecordError" Width="1.5" PointX="5.75" PointY="15.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseRecordStatu" Width="1.5" PointX="10.25" PointY="6.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ResponseStatu" Width="1.5" PointX="5.75" PointY="7.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RuleAction" Width="1.5" PointX="17" PointY="24.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RuleInstance" Width="1.5" PointX="19.25" PointY="24.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RuleInstanceParam" Width="1.5" PointX="5.875" PointY="0.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.State" Width="1.5" PointX="8.75" PointY="42.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.StatePlateReplaceSet" Width="1.5" PointX="3" PointY="28.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.StatePlateValidationSet" Width="1.5" PointX="22" PointY="7.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Status" Width="1.5" PointX="8" PointY="53.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.StepType" Width="1.5" PointX="12.75" PointY="13.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.TargetType" Width="1.5" PointX="14.75" PointY="46.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.TimeSpanType" Width="1.5" PointX="19.75" PointY="34.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.UserTable" Width="1.5" PointX="8" PointY="62.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.UserType" Width="1.5" PointX="5.75" PointY="66" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationOperator" Width="1.5" PointX="12.75" PointY="23.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationPatternType" Width="1.5" PointX="19.75" PointY="1.25" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationSet" Width="1.5" PointX="16" PointY="52.5" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationSetField" Width="1.5" PointX="15" PointY="18.75" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationSetType" Width="1.5" PointX="13.75" PointY="53" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationTerm" Width="1.5" PointX="17.25" PointY="15.375" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.ValidationType" Width="1.5" PointX="15" PointY="10.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.VehicleMake" Width="1.5" PointX="22.25" PointY="56" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Version" Width="1.5" PointX="7.75" PointY="13.125" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.Plate" Width="1.5" PointX="5.75" PointY="17.875" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.RequestRecordStatu" Width="1.5" PointX="29.75" PointY="67.625" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.NoHitsType" Width="1.5" PointX="5.75" PointY="78" />
+        <EntityTypeShape EntityType="DMVRegOracleEntities.DataSrc" Width="1.5" PointX="8" PointY="71.875" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ActionParams_ActionType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ActionParams_ParamType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RuleInstanceParams_ActionParams" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Address_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactAddress_Address" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_OwnershipEntity_Address" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactAddress_AddressType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcBatchRules_BatchRuleType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatch_BatchStatusClientRqst" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatchStatus_BatchStatusClientRqst" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseBatch_BatchStatusClientRsp" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseBatchStatus_BatchStatusClientRsp" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestBatch_BatchStatusDataSrcRqst" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestBatchStatus_BatchStatusDataSrcRqst" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcResponseBatch_BatchStatusDataSrcRsp" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcResponseBatchStatus_BatchStatusDataSrcRsp" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Client_ChargeType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientContact_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientContact_Contact" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientContact_ContactType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientContact_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientContract_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDataSrcOrder_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDataSrcOrder_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDataSrcOrder_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Client_ClientStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientStatus_ClientDataSrcStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcStatus_ClientDataSrcStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrc_ClientDataSrcStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDateTimeFormat_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDateTimeFormat_DateTimeFormatType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDateTimeFormat_Direction" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDateTimeFormat_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDateTimeFormat_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDocument_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDocument_Document" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientDocument_DocumentType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientExtractSet_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientExtractSet_ExtractSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientExtractSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientExtractSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientInvoice_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientInvoice_Document" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientMakeFamily_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientMakeFamily_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientMakeFamilyMake_ClientMakeFamily" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientMakeFamilyMember_ClientMakeFamily" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientNotes_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientNotes_Notes" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientNotes_NotesType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientParseSet_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientParseSet_ParseSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientParseSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientParseSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatchRecord_ClientRequestBatch" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatchRecord_RawRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatchRecord_RequestRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatch_ClientRequestBatchState" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseBatchRecord_ClientResponseBatch" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseBatchRecord_RawRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseBatchRecord_RequestRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseBatchRecord_ResponseFormatSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseControl_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseFormatSet_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseFormatSet_ResponseFormatSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseFormatSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseFormatSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientResponseReport_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientState_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientState_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientState_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientState_UserTable1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientStatisticsDefaults_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientStatus_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Client_ClientType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientValidationSet_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientValidationSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientValidationSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientValidationSet_ValidationSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactEMail_Contact" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactEMail_EMail" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactEMail_EMailType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactPhoneNumber_Contact" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactPhoneNumber_PhoneNumber" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ContactPhoneNumber_PhoneNumberType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcBatchCost_CostingUnit" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_State_Country" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcContact_Contact" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcContact_ContactType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcContact_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcContact_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDateTimeFormat_DateTimeFormatType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDateTimeFormat_Direction" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDateTimeFormat_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDateTimeFormat_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDateTimeFormat_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDocument_Document" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDocument_DocumentType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcDocument_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcExtractSet_ExtractSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcExtractSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcExtractSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcExtractSet_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcIdentificationSet_IdentificationSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcIdentificationSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcIdentificationSet_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcMakeFamily_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcMakeFamilyMake_DataSrcMakeFamily" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcMakeFamilyMember_DataSrcMakeFamily" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcMakeFamily_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcNotes_Notes" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcNotes_NotesType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcNotes_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcParseSet_ParseSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcParseSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcParseSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcParseSet_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestBatchRecord_DataSrcRequestBatch" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestBatchRecord_RawRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestBatchRecord_RequestFormatSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestBatchRecord_RequestRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestControl_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestFormatSet_RequestFormatSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestFormatSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestFormatSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestFormatSet_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestRuleSet_RequestRuleSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestRuleSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcRequestRuleSet_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcResponseBatchRecord_DataSrcResponseBatch" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcResponseBatchRecord_RawRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcResponseBatchRecord_ResponseRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcResponseBatch_DataSrcResponseBatchState" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcState_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcState_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcState_UserTable1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcState_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcStateNLETS_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcStateNLETS_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcStateNLETS_UserTable1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcStatisticsDefaults_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrc_DataSrcType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcValidationSet_Status" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcValidationSet_User" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcValidationSet_ValidationSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcValidationSet_DataSrc" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ExtractSetField_ExtractSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ExtractRuleStep_ExtractSetField" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ExtractSetField_NormalizedObjectDef" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_IdentificationStep_IdentificationSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_IdentificationStep_IdentificationStep" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_IdentificationStep_IdentificationStep1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_IdentificationStep_IdentificationStepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_IdentificationStep_RuleInstance" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_LoadRejectCounts_ClientRequestBatch" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_LoadRejectCounts_LoadRejectType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_LoadRuleSet_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_LoadRuleStep_LoadRuleSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Client_NLETSType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecord_NoHitReason" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_NormalizedObjectDef_NormalizedCategory" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_NormalizedObjectDef_NormalizedObject" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestResponse_NotSelectReason" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseStep_ParseSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseStep_ParseStep" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseStep_ParseStep1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseStep_ParseStepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseStep_RuleInstance" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateReplaceStep_PlateReplaceSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_StatePlateReplaceSet_PlateReplaceSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateType_PlateType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateType_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateType_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateType_UserTable1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateTypeClientXlat_PlateType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateTypeDataSrcXlat_PlateType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRecord_PlateType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateTypeClientXlat_Client" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateTypeClientXlat_Direction" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateTypeDataSrcXlat_Direction" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateValidationStep_PlateValidationSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_StatePlateValidationSet_PlateValidationSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateReplaceStep_ReplacePatternType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientRequestBatch_RequestBatchType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestFormatStep_NormalizedObjectDef" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestFormatStep_RequestFormatSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestFormatStep_ParseStepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestFormatStep_RuleInstance" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRuleStep_NormalizedObjectDef" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRuleStep_RequestRuleSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRuleStep_RequestRuleStep" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRuleStep_RequestRuleStep1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRuleStep_RuleInstance" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRuleStep_StepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRecord_RequestStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRecordStatus_RequestStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseFormatStep_NormalizedObjectDef" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseFormatStep_ResponseFormatSet" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseFormatStep_RuleInstance" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseFormatStep_StepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecord_ResponseRecordDataStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecord_ResponseRecordError" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecordStatus_ResponseRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecordStatus_ResponseStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecord_ResponseStatus" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseAction_ActionType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseAction_ParseStepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseAction_TargetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseRule_ParseAction" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ExtractStep_RuleInstance" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Client_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ExtractStep_ParseStepType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ExtractSet_TargetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_IdentificationSet_TargetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ParseSet_TargetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestFormatSet_TargetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseFormatSet_TargetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcBatchRules_TimeSpanType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_User_UserType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ValidationSetField_ValidationOperator" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_PlateValidationStep_ValidationPatternType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ValidationSetField_NormalizedObjectDef" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ValidationSet_ValidationSetType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ValidationTerm_ValidationSetField" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ValidationTerm_ValidationType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ClientMakeFamilyMake_VehicleMake" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrcMakeFamilyMake_VehicleMake" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRecord_VehicleMake" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_VehicleMake_StatusType" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_VehicleMake_UserTable" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_VehicleMake_UserTable1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_Plate_State" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecord_Plate" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_ResponseRecord_Plate1" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_RequestRecordStatus_RequestRecord" />
+        <AssociationConnector Association="DMVRegOracleEntities.FK_DataSrc_NoHitsType" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
